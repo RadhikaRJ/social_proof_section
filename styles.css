@@ -1,4 +1,7 @@
-
+body{
+    margin:0;
+    color:hsl(300, 43%, 22%);
+}
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -7,4 +10,27 @@
     color: hsl(228, 45%, 44%);
   }
 
-  
+  .container{
+      margin:0 auto;
+      width:1440px;
+      border: 2px solid gray;
+  }
+
+  .title{
+    border: 2px solid purple;
+  }
+
+.title-blocks{
+    border: 2px solid cyan;
+}
+
+.sub-container{
+display:flex;
+justify-content: space-between;
+border: 2px solid blue;
+}
+
+.columns{
+    display: flex;
+    flex-direction:column;
+}
