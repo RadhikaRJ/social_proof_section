@@ -123,16 +123,33 @@ body {
 .feedback-block{
     margin-top:3%;
     padding:3em;
+    justify-content: space-between;
 }
 
 .cards {
     border: 2px solid green;
     display: flex;
     flex-direction: column;
+    padding:2em;
+    border-radius:1em;
+    margin:0 auto;;
 
 }
 
 .img-title {
     display: flex;
+    border: 2px solid purple;
 
+
+}
+.img-title> img{
+    border: 2px solid red;
+}
+
+.img-info{
+border: 2px solid cyan;
+}
+
+.feedback-msg{
+    border: 2px solid orange;
 }
