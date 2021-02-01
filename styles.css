@@ -187,3 +187,17 @@ margin-top:0;
 .c3{
     margin-top: 2%;
 }
+
+@media (max-width:675px){
+
+    .body{
+        background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-mobile.svg");
+    }
+    .container{
+        margin:0 auto;
+        width:100%;
+    }
+    .sub-container{
+        flex-direction: column;
+    }
+}
