@@ -209,7 +209,8 @@ margin-top:0;
         margin:0;
     }
     .rating{
-        margin:1em;;
+        margin:1em;
+        flex-direction: column;
     }
     .feedback-block{
         
