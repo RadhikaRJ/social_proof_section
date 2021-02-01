@@ -24,10 +24,13 @@ body{
     border: 2px solid blue;
    
     }
-
+.title{
+    margin-top:5%;
+}
 .title-blocks{
     border: 2px solid cyan;
     padding:1em;
+    width:100%;;
     
    
 }
@@ -51,20 +54,39 @@ body{
 .rating{
     display:flex;
     background-color:hsl(300, 24%, 96%);
-    padding:0.25em;
-    margin:2rem;
+    padding:0.5em 1em;
+    margin-top:0.5em;
     border-radius:0.5em;
+    /* border: 2px solid purple; */
+    width:fit-content;
+    text-align: center;
 }
 .star-icon{
     display: flex;
+    padding:0.1em;
+    /* border: 2px solid blue; */
 }
 .star-icon> img{
-    padding:0.5em;
+    /* border: 2px solid green; */
+    padding:0.25em;
 }
 .rating-desc{
     padding:0.25em;
     font-weight: 700;
-   
+    /* border: 2px solid red; */   
+}
+
+.first-rating{
+    margin-left:0;
+    padding-right:4em;
+}
+.second-rating{
+    margin-left:4.5em;
+    padding-right:3em;
+}
+.third-rating{
+    margin-left:9em;
+    padding-right: 6em;;
 }
 .cards{
     border: 2px solid green;
