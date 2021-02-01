@@ -15,7 +15,7 @@ body {
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(300, 43%, 22%)
 }
 
 .container {
@@ -40,7 +40,7 @@ body {
     /* border: 2px solid cyan; */
     padding: 1em;
     width: 100%;
-    ;
+    
 
 
 }
@@ -196,8 +196,27 @@ margin-top:0;
     .container{
         margin:0 auto;
         width:100%;
+        padding:0;
     }
     .sub-container{
         flex-direction: column;
+        margin:0 auto;
+    }
+    .title{
+        margin-top:0%;
+    }
+    .rating-position{
+        margin:0;
+    }
+    .rating{
+        margin:1em;;
+    }
+    .feedback-block{
+        
+        padding-top:0;
+       margin-top:1%;
+    }
+    .cards{
+        margin-top:3%;
     }
 }
