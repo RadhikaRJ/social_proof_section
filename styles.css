@@ -120,6 +120,10 @@ body {
     margin-right:15%;
 }
 
+.feedback-block{
+    margin-top:3%;
+    padding:3em;
+}
 
 .cards {
     border: 2px solid green;
