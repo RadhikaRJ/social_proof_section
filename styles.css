@@ -209,6 +209,11 @@ margin-top:0;
     .rating-position{
         margin:0;
     }
+    .first-rating,
+    .second-rating,
+    .third-rating{
+        width:inherit;
+    }
     .rating{
         margin:1em;
         flex-direction: column;
